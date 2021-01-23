@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "\\ t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "\\ t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[IntlBackslash]",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "\\ d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    { "key": "cmd+shift+m",    "command": "workbench.action.toggleMaximizedPanel" }
+]
